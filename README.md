@@ -16,3 +16,12 @@ Outdated cards that don't have any encryption.
 Like [MIFARE](https://en.wikipedia.org/wiki/MIFARE) DESFire EV1 and EV2, which use AES 128 encryption, and NFC (Near Field Communication), they're more secure but have a smaller read distance.
 
 ## Applications
+
+### Metro Systems
+| Location | Card Name | Protocol |
+|---|---|---|
+| Boston | Charlie | MIFARE DESFire EV1 |
+| London | Oyster | MIFARE Classic / MIFARE DESFire EV1 |
+| NYC | OMNY | Contactless EMV |
+| Paris | Navigo Easy | Calypso |
+| Seattle | Orca | MIFARE DESFire EV1 |
