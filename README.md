@@ -34,3 +34,22 @@ Like [MIFARE](https://en.wikipedia.org/wiki/MIFARE) DESFire EV1 and EV2, which u
 2. Mutual Three-Pass Authentication using a security handshake.
 3. Application-level authentication.
 4. File Access and Operations include reading data, writing data, incrementing or decrementing values, and creating or deleting files.
+
+```
+Credit Application using libfreefare API
+
+#define FILENO 1
+#define CREDIT_AMOUNT 2
+
+mifare_desfire_select_application(tag, app_id);
+mifare_desfire_authenticate(tag, FILENO, key);
+
+mifare_desfire_credit (tag, FILENO, CREDIT_AMOUNT);
+mifare_desfire_commit_transaction(tag);
+
+int32_t balance;
+
+mifare_desfire_get_value(tag, FILENO, &balance);
+printf("Balance is now %d\n", balance);
+```
+Code from [Rory Flynn](https://youtu.be/ZSrOq40z1i8?si=PevuQKsnRwp0PTmi) using [libfreefare](https://github.com/nfc-tools/libfreefare).
