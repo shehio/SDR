@@ -13,7 +13,7 @@ Source: [Wikimedia](https://en.wikipedia.org/wiki/Electromagnetic_spectrum).
 | Boston | Charlie | MIFARE DESFire EV1 |
 | London | Oyster | MIFARE Classic / MIFARE DESFire EV1 |
 | NYC | OMNY | Contactless EMV |
-| Paris | Navigo Easy | Calypso |
+| Paris | Navigo Easy | [Calypso](https://en.wikipedia.org/wiki/Calypso_(electronic_ticketing_system)) |
 | Seattle | Orca | MIFARE DESFire EV1 |
 
 
